@@ -7,3 +7,13 @@ def play_game():
     
     # This variable will store how many guesses the user gets
     attempts = 0
+    
+    # Choose difficulty
+    level = input("Choose a difficulty. Type 'easy', 'medium', or 'hard': ").lower()
+    
+    if level == 'easy':
+        attempts = 10
+    elif level == 'medium':
+        attempts = 7
+    else:
+        attempts = 5
