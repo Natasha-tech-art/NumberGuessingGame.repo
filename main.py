@@ -18,7 +18,7 @@ def play_game():
     else:
         attempts = 5
         
-      guess = 0
+    guess = 0
     while guess != secret_number and attempts > 0:
         print(f"You have {attempts} attempts remaining to guess the number.")
         
